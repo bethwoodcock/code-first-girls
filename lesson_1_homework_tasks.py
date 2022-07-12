@@ -11,12 +11,12 @@ print('You need to buy {} nails'.format(nailsmessage))
 #my program calculating the total number of nails correctly? What is the problem? How do I fix it?
 
 ##ANSWER
-# chairs does not have to be in quotations.
+# chairs does not have to be in quotations. Double print not needed.
 chairs = 15
 nails = 4
 total_nails = chairs * nails
 newnailsmessage = 'I need to buy {} nails'.format(total_nails)
-print('You need to buy {} nails'.format(newnailsmessage))
+print(newnailsmessage)
 
 ###Question 2
 #I'm trying to run this program, but I get an error. What is the error telling me is wrong? How do I fix
